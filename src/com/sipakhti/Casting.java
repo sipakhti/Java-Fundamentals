@@ -12,13 +12,13 @@ public class Casting {
         // explicit casting
         double a = 1.1;
         int b = (int)a + 2;
-        // cannot cast a string to a number (non-compatible) so we use wrapper class
+        // cannot cast a string to a number (non-compatible), so we use wrapper class
         String s = "i1c";
         try {
             int c = Integer.parseInt(s) + 2;
             System.out.println(c);
         } catch (NumberFormatException e) {
-            System.out.println("Wrong Input");;
+            System.out.println("Wrong Input");
         }
 
 
