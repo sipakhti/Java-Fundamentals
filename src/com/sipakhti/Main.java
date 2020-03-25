@@ -1,8 +1,11 @@
 package com.sipakhti;
 
+import com.Experimentations.Experiment_1;
+
 import java.awt.*;
 import java.io.PrintStream;
 import java.util.Date;
+import java.util.Scanner;
 
 import static java.lang.System.*;
 
@@ -53,7 +56,7 @@ public class Main {
         for (String s : message.split(" ")) {
             out.println(s);
         }
-
+        Scanner input = new Scanner(System.in);
 
 
     }

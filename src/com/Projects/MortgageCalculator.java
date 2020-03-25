@@ -1,7 +1,6 @@
-package Projects;
+package com.Projects;
 
 import java.text.NumberFormat;
-import java.util.Currency;
 import java.util.Scanner;
 
 public class MortgageCalculator {
